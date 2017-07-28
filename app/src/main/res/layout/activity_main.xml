@@ -39,4 +39,26 @@
         android:background="#666666"
         />
 
+    <TextView
+        android:id="@+id/bt4"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暴露服务1"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#666666"
+        />
+
+    <TextView
+        android:id="@+id/bt5"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暴露服务2"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#666666"
+        />
+
 </LinearLayout>
