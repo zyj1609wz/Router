@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.router.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="应用内跳转"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#666666"
+        />
+
+    <TextView
+        android:id="@+id/bt2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义路由分组"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#666666"
+        />
+
+    <TextView
+        android:id="@+id/bt3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL路由"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#666666"
+        />
+
+</LinearLayout>
